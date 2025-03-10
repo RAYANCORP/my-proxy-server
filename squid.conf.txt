@@ -1,6 +1,0 @@
-http_port 3128
-acl localnet src 0.0.0.0/0
-http_access allow localnet
-cache deny all
-access_log /var/log/squid/access.log
-cache_log /var/log/squid/cache.log
